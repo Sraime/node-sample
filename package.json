@@ -1,0 +1,26 @@
+{
+  "name": "poc_codecept",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "cc:init": "codeceptjs init",
+    "cc:run": "codeceptjs run",
+    "cc:gt": "codeceptjs gt",
+    "cc:gherkin:init": "codeceptjs gherkin:init",
+    "cc:gherkin:snippets": "codeceptjs gherkin:snippets",
+    "allure:serve": "allure serve ./test/e2e/output",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.7.0",
+    "mocha": "^5.2.0",
+    "puppeteer": "^1.6.0",
+    "codeceptjs": "^1.4.2"
+  }
+}
