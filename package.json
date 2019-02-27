@@ -12,15 +12,18 @@
     "allure:serve": "allure serve ./test/e2e/output",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Robin COLLAS",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
   },
   "devDependencies": {
-    "allure-commandline": "^2.7.0",
+    "allure-commandline": "^2.9.0",
+    "chai": "^4.2.0",
+    "chai-sinon": "^2.8.1",
+    "codeceptjs": "^2.0.6",
     "mocha": "^5.2.0",
-    "puppeteer": "^1.6.0",
-    "codeceptjs": "^1.4.2"
+    "puppeteer": "^1.12.2",
+    "sinon": "^7.2.4"
   }
 }
