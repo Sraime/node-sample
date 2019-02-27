@@ -1,7 +1,11 @@
 {
   "name": "poc_codecept",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample projet for an express app. Perfect to begin.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sraime/node-sample.git"
+  },
   "main": "app.js",
   "scripts": {
     "cc:init": "codeceptjs init",
@@ -19,7 +23,7 @@
   },
   "devDependencies": {
     "allure-commandline": "^2.9.0",
-    "chai": "^4.2.0",
+    "chai": "^3.5.0",
     "chai-sinon": "^2.8.1",
     "codeceptjs": "^2.0.6",
     "mocha": "^5.2.0",
